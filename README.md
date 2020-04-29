@@ -17,4 +17,8 @@ $ yarn start
 
 # generate static project
 $ yarn generate
+
+# lint project
+$ yarn lint
+$ yarn lint:fix
 ```
