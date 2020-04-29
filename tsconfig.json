@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5", 
-    "module": "ESNext",
+    "module": "CommonJs",
     "moduleResolution": "node",
     "lib": [
       "esnext",
@@ -10,10 +10,13 @@
     ],
     "esModuleInterop": true,
     "allowJs": true,
+    "noImplicitAny": false,
     "sourceMap": true,
     "strict": true,
     "noEmit": true,
     "experimentalDecorators": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
     "baseUrl": ".",
     "paths": {
       "~/*": [
@@ -27,7 +30,7 @@
       "@types/node",
       "@nuxt/types",
       "vuex/types",
-      "vue-r"
+      "vue-router/types"
     ]
   },
   "exclude": [
