@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5", //TODO: Check with ie11
-    "module": "ESNext", //TODO: Check with ie11
+    "target": "es5", 
+    "module": "ESNext",
     "moduleResolution": "node",
     "lib": [
       "esnext",
