@@ -10,7 +10,7 @@
     ],
     "esModuleInterop": true,
     "allowJs": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "sourceMap": true,
     "strict": true,
     "noEmit": true,
@@ -26,12 +26,11 @@
         "./*"
       ]
     },
-    "types": [
-      "@types/node",
-      "@nuxt/types",
-      "vuex/types",
-      "vue-router/types"
-    ]
+    "typeRoots": [
+      "./node_modules",
+      "./types/index.d.ts"
+    ],
+    "types": ["@nuxt", "node", "vuex", "vue-router"]
   },
   "exclude": [
     "node_modules",

@@ -1,10 +1,28 @@
 <template>
   <div>
+    <nav>
+      <ul>
+        <li>
+          <nuxt-link to="/">Home page</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/router">Router page</nuxt-link>
+        </li>
+      </ul>
+    </nav>
     <nuxt />
   </div>
 </template>
 
 <style>
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
