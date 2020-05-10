@@ -1,0 +1,8 @@
+[{
+  "username": "John Smith",
+  "id": 12345,
+  "profile": {
+    "age": 64,
+    "martial_status": "single"
+  }
+}]

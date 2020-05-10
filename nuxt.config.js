@@ -12,7 +12,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'A project to provide code for Nuxt / Vue project architecture' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/styles/example-global-styles.css' }
     ]
   },
   /*
