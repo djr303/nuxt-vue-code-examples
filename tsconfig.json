@@ -26,15 +26,12 @@
         "./*"
       ]
     },
-    "typeRoots": [
-      "./node_modules",
-      "./types/index.d.ts"
-    ],
-    "types": ["@nuxt", "node", "vuex", "vue-router"]
+    "types": ["@nuxt", "jest", "node", "vuex", "vue-router"]
   },
   "exclude": [
     "node_modules",
     ".nuxt",
-    "dist"
+    "dist",
+    "**/*.spec.ts"
   ]
 }
